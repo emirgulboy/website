@@ -7,7 +7,9 @@ function Home() {
   return (
     <><div>
       <h1> Home </h1>
-      <ImageHover imgSrc={Pic1} />
+      <ImageHover imgSrc={Pic1} text1={"a"} text2={"b"} />
+      <ImageHover imgSrc={Pic1} text1={"a"} text2={"b"} />
+
     </div>
     </>
               
