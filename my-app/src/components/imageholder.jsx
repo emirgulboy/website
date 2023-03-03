@@ -12,7 +12,7 @@ const ImageHover = ({ imgSrc }) => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <img src={imgSrc}  />
+      <img src={imgSrc}  alt="logo"/>
 
       {isHovering && (
         <div className="image-hover-overlay">

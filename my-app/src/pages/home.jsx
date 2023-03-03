@@ -1,18 +1,21 @@
 import React from 'react';
 import ImageHoverSlow from '../components/imageholder';
-import Pic1 from '../assets/images/14h3t.png';
+import Pic1 from '../assets/images/thumbnail.webp';
 import ass from '../assets/images/logo_final.png'
+
+console.log(Pic1)
 function Home() {
-  require('../assets/images/xxx.jpg');
-  require('../assets/images/14h3t.png')
   return (
-    <><div className="sec__one">
+    <><div>
       <h1> Home </h1>
-      <image src="../assets/images/xxx.jpg"></image>
-      
+      <image src={ass}></image>
+      <ImageHoverSlow
+      defaultImgPath={Pic1} />
+      <img
+        src="https://bobbyhadz.com/images/blog/react-prevent-multiple-button-clicks/thumbnail.webp"
+        alt="car"
+      />
     </div>
-    <ImageHoverSlow
-      defaultImgPath={Pic1.toString()} />
     </>
               
   );
